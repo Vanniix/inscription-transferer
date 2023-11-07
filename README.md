@@ -2,6 +2,8 @@
 This script is used to generate and broadcast bitcoin transactions that bulk transfer inscriptions contained within
 a single address.
 
+WARNING: Use this script at your own risk. Incorrect usage could result in loss of inscriptions or loss of bitcoin. I take no responsibility for any lost assets due to the use of this script.
+
 ## Setup
 ### Node.js
 To use, you must have node and npm installed. To check, run `node -v` and `npm -v`. If either doesn't work, you need
