@@ -1,0 +1,25 @@
+{
+  "name": "inscription-transferer",
+  "version": "1.0.0",
+  "description": "NodeJS script to bulk transfer inscriptions to a list of addresses",
+  "main": "main.ts",
+  "scripts": {
+    "pretransfer": "tsc",
+    "transfer": "node js/main.mjs"
+  },
+  "author": "Vannix",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.8.10",
+    "@types/prompt-sync": "^4.2.2",
+    "@types/retry": "^0.12.4",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "csv-parse": "^5.5.2",
+    "ecpair": "^2.1.0",
+    "prompt-sync": "^4.2.0",
+    "retry": "^0.13.1",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
